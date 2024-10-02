@@ -120,6 +120,9 @@ console.log(luckyResult);
 
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
+result = 'Adventures are great!';
+
+adventurous ? console.log(result) : null;
 
 
 

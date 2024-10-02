@@ -1,8 +1,12 @@
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
 let firstName = 'Jake';
+console.log(firstName);
+
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
 let lastName = 'Berg';
+console.log(lastName);
+
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 //     (remember, you already have variables for this, can you use those?)
 //     Console log the value of `fullName`
@@ -35,10 +39,14 @@ console.log(pets);
 
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 1
+console.log(friendsPets);
 // 10 - Add two pets to your `pets` variable
 friendsPets +=2;
+console.log(friendsPets);
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 let allowedPets = 5
+console.log(allowedPets);
+
 // 12 - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
@@ -84,8 +92,7 @@ if (pets > friendsPets) {
 console.log(mostPets = pets);
 
 } else {
-  console.log(mostPets = friendsPets);
-  
+  console.log(mostPets = friendsPets); 
 }
 // 16 - Make a variable called `luckyResult`
 //      Write a *switch* statement that sets `luckyResult` to:
@@ -95,6 +102,22 @@ console.log(mostPets = pets);
 //      Otherwise, "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 //      console.log `luckyResult` after the conditional has run.
+let luckyResult
+switch (luckyNumber) {
+  case 1:
+      luckyResult = "First is the worst";
+      break;
+  case 2:
+      luckyResult = "Second is the best";
+      break;
+  case 3:
+      luckyResult = "Third is the one with the polka dot dress";
+      break;
+  default:
+      luckyResult = "Luck is what happens when preparation meets opportunity";
+}
+console.log(luckyResult);
+
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 

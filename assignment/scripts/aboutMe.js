@@ -68,7 +68,10 @@ else {
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
 
-
+let petStatus 
+if (pets < allowedPets) {
+  console.log(petStatus = 'I can have more pets'); 
+}
 // STRETCH GOALS:
 
 // 15 - Make a variable called `mostPets` and a conditional that
@@ -76,7 +79,14 @@ else {
 //      assigns the highest value to `mostPets`. There's several possibilities --
 //      be sure to think through all the scenarios. 
 //      console.log `mostPets` after the conditional has run.
+let mostPets
+if (pets > friendsPets) {
+console.log(mostPets = pets);
 
+} else {
+  console.log(mostPets = friendsPets);
+  
+}
 // 16 - Make a variable called `luckyResult`
 //      Write a *switch* statement that sets `luckyResult` to:
 //      "First is the worst" if your lucky number is 1
